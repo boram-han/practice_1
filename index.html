@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="보라미 님의 덕담 페이지"/>
+    <meta property="og:description" content="덕담 한마디 남겨주세요!"/>
+    <meta property="og:image" content="https://2022-01-newyear.s3.ap-northeast-2.amazonaws.com/ogimage.png"/>
+
+    <title>덕담 하나 주면 안 잡아먹지!</title>
+
+    <style>
+        @font-face {
+            font-family: 'Cafe24Ssurround';
+            src: url('https://2022-01-newyear.s3.ap-northeast-2.amazonaws.com/Cafe24Ssurround.woff') format('woff');
+        }
+
+        * {  /* *은 모든 것에다가 이 폰트를 먹여라! */
+            font-family: 'Cafe24Ssurround';
+        }
+
+        .background {
+            width: 100vw;
+            height: 100vh;
+
+            max-width: 450px;
+
+            background-image: url('https://2022-01-newyear.s3.ap-northeast-2.amazonaws.com/bg_default.png');
+            background-position: center;
+            background-size: cover;
+
+            margin: auto;  /* F12, 모바일 Responsive 350 x 700 */
+        }
+
+        body, h1, p {
+            margin: 0px;  /* 자동으로 여백이 지정되어 있음. */
+            padding: 0px;
+        }
+
+        .title {
+            color: #3f3732;
+        
+            display:flex;
+            flex-direction: column; /* "row"는 옆으로 정렬 */
+            justify-content: center;
+            align-items: center;
+
+            padding-top: 5vh;  /* 보는 사람 핸드폰 크기에 5% 여백을 주겠다 */
+        }
+
+        .title > h1 {
+            font-size: 22px;
+
+            background-color: white;
+            padding: 8px 16px;
+            border-radius: 16px;
+
+            margin-bottom: 16px;
+        }
+
+        .title > p {
+            font-size: 18px;
+        }
+
+        .title > p > span {
+            font-size: 22px;
+        }
+
+        .btn {
+            background-color: #3f3732;
+            color: white;
+
+            width: 300px;
+            height: 50px;
+            border-radius: 10px;
+
+            font-size: 18px;
+
+            display:flex;
+            flex-direction: column; /* "row"는 옆으로 정렬 */
+            justify-content: center;
+            align-items: center;
+
+            cursor: pointer;  /* 마우스 모영 손모양으로 변경 */
+
+            position: fixed; 
+            bottom: 16px;
+            left: calc(50% - 150px);  /* 띄어쓰기 중요!! 화면 늘리던 줄이던 가운데로 */
+        }
+
+        .box > img {
+            width: 70px;
+
+            position: absolute;
+            bottom: 50%;
+            left: 20%;
+        }
+    </style>
+    <script src="https://2022-01-newyear.s3.ap-northeast-2.amazonaws.com/free_newyear_2022.js"></script>
+    <script>let mycode = 'fee825fe5fe193abdd7376f7e3c2d5aa';</script>
+</head>
+<body>
+    <div>
+        <div class="background">
+            <div class="title">
+                <h1>덕담 하나 주면 안잡아먹지!</h1>
+                <p>보라미 님이 받은 덕담: <span>0개</span></p>
+            </div>
+            <div class="box">
+            </div>
+            <div class="btn">바구니에 덕담 남기기</div>
+    </div>
+        <div>테스트</div>
+        <p>hello</p>
+</body>
+</html>
